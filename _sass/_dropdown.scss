@@ -1,0 +1,79 @@
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+@import "colors";
+
+.dropbtn {
+    @include getColor(background, primary, header);
+    @include getColor(text, primary, header);
+    &:hover, &.active {
+        @include getColor(text, accent);
+    }
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: inherit;
+    padding: 0.5em;
+    height: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    &.right-align > div.dropdown-content {
+        left: unset;
+        right: 0;
+    }
+    overflow-wrap: normal;
+    font-size: 1.5rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 1em;
+    @include getColor(background, primary, header);
+    @include getColor(text, primary, header);
+    z-index: 1;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    gap: 1em;
+    * {
+        vertical-align: top;
+    }
+    &.show {
+        display: flex;
+    }
+    input[type='checkbox'] {
+        position: absolute;
+        & + label {
+            padding-left: 1.8em;
+            display: inline-block;
+        }
+    }
+    a {
+        @include getColor(background, primary, header);
+        @include getColor(text, primary, header);
+        &:hover {
+            @include getColor(text, accent, header);
+        }
+        display: inline-flex;
+        text-decoration: none;
+    }
+}
+

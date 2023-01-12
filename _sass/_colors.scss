@@ -1,0 +1,288 @@
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+// JTC Colors v1.0
+
+$amber: #ff7e00;
+$amethyst: #9c43f4;
+$emerald: #50c878;
+$jade: #01881b;
+$rose-quartz: #FC9AF2;
+$ruby: #e0105f;
+$sapphire: #0f52ba;
+$sulphur: #f1e14b;
+$turquoise: #30d5c8;
+
+$basalt: #161616;
+$slate: #424242;
+$marble: #efefef;
+
+@mixin getColor($color-type: text, $color: primary, $style: normal) {
+    @if ($color-type == text) {
+        @if ($color == primary) {
+            @if ($style == header) {
+                color: $marble;
+            }
+            @if ($style == normal) {
+                .jtc-theme-dark & {
+                    color: $marble;
+                }
+                .jtc-theme-light & {
+                    color: $basalt;
+                }
+            }
+        }
+        @if ($color == accent) {
+            .jtc-scheme-amber & {
+                color: $amber;
+            }
+            .accessible-colors.jtc-scheme-amber & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $amber;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-amethyst & {
+                color: $amethyst
+            }
+            .accessible-colors.jtc-scheme-amethyst & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $amethyst;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-emerald & {
+                color: $emerald
+            }
+            .accessible-colors.jtc-scheme-emerald & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $emerald;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-jade & {
+                color: $jade
+            }
+            .accessible-colors.jtc-scheme-jade & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $jade;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-rose-quartz & {
+                color: $rose-quartz;
+            }
+            .accessible-colors.jtc-scheme-rose-quartz & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $rose-quartz;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-ruby & {
+                color: $ruby;
+            }
+            .accessible-colors.jtc-scheme-ruby & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $ruby;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-sapphire & {
+                color: $sapphire;
+            }
+            .accessible-colors.jtc-scheme-sapphire & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $sapphire;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-sulphur & {
+                color: $sulphur;
+            }
+            .accessible-colors.jtc-scheme-sulphur & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $sulphur;
+                text-decoration-style: double;
+            }
+            .jtc-scheme-turquoise & {
+                color: $turquoise;
+            }
+            .accessible-colors.jtc-scheme-turquoise & {
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: $turquoise;
+                text-decoration-style: double;
+            }
+        }
+    }
+    @if ($color-type == background) {
+        @if ($color == primary) {
+            @if ($style == header) {
+                background-color: $basalt;
+            }
+            @if ($style == normal) {
+                .jtc-theme-dark & {
+                    background-color: $slate;
+                }
+                .jtc-theme-light & {
+                    background-color: $marble;
+                }
+            }
+        }
+        @if ($color == accent) {
+            @if ($style == normal) {
+                .jtc-scheme-amber & {
+                    background-color: $amber;
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-amber & {
+                    background-color: $basalt;
+                    border: 1rem solid $amber;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-amber & {
+                    background-color: $marble;
+                    border: 1rem solid $amber;
+                }
+                .jtc-scheme-amethyst & {
+                    background-color: $amethyst
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-amethyst & {
+                    background-color: $basalt;
+                    border: 1rem solid $amethyst;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-amethyst & {
+                    background-color: $marble;
+                    border: 1rem solid $amethyst;
+                }
+                .jtc-scheme-emerald & {
+                    background-color: $emerald
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-emerald & {
+                    background-color: $basalt;
+                    border: 1rem solid $emerald;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-emerald & {
+                    background-color: $marble;
+                    border: 1rem solid $emerald;
+                }
+                .jtc-scheme-jade & {
+                    background-color: $jade
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-jade & {
+                    background-color: $basalt;
+                    border: 1rem solid $jade;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-jade & {
+                    background-color: $marble;
+                    border: 1rem solid $jade;
+                }
+                .jtc-scheme-rose-quartz & {
+                    background-color: $rose-quartz;
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-rose-quartz & {
+                    background-color: $basalt;
+                    border: 1rem solid $rose-quartz;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-rose-quartz & {
+                    background-color: $marble;
+                    border: 1rem solid $rose-quartz;
+                }
+                .jtc-scheme-ruby & {
+                    background-color: $ruby;
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-ruby & {
+                    background-color: $basalt;
+                    border: 1rem solid $ruby;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-ruby & {
+                    background-color: $marble;
+                    border: 1rem solid $ruby;
+                }
+                .jtc-scheme-sapphire & {
+                    background-color: $sapphire;
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-sapphire & {
+                    background-color: $basalt;
+                    border: 1rem solid $sapphire;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-sapphire & {
+                    background-color: $marble;
+                    border: 1rem solid $sapphire;
+                }
+                .jtc-scheme-sulphur & {
+                    background-color: $sulphur;
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-sulphur & {
+                    background-color: $basalt;
+                    border: 1rem solid $sulphur;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-sulphur & {
+                    background-color: $marble;
+                    border: 1rem solid $sulphur;
+                }
+                .jtc-scheme-turquoise & {
+                    background-color: $turquoise;
+                }
+                .jtc-theme-dark.accessible-colors.jtc-scheme-turquoise & {
+                    background-color: $basalt;
+                    border: 1rem solid $turquoise;
+                }
+                .jtc-theme-light.accessible-colors.jtc-scheme-turquoise & {
+                    background-color: $marble;
+                    border: 1rem solid $turquoise;
+                }
+            }
+            @if ($style == desaturated) {
+                .jtc-scheme-amber & {
+                    background-color: scale-color($amber, $saturation: -50%, $lightness: +10%);
+                    color: $basalt;
+                }
+                .jtc-scheme-amethyst & {
+                    background-color: scale-color($amethyst, $saturation: -50%, $lightness: +20%);
+                    color: $basalt;
+                }
+                .jtc-scheme-emerald & {
+                    background-color: scale-color($emerald, $saturation: -50%, $lightness: +10%);
+                    color: $basalt;
+                }
+                .jtc-scheme-jade & {
+                    background-color: scale-color($jade, $saturation: -50%, $lightness: +10%);
+                    color: $marble;
+                }
+                .jtc-scheme-rose-quartz & {
+                    background-color: scale-color($rose-quartz, $saturation: -50%, $lightness: +10%);
+                    color: $basalt;
+                }
+                .jtc-scheme-ruby & {
+                    background-color: scale-color($ruby, $saturation: -50%, $lightness: +10%);
+                    color: $marble;
+                }
+                .jtc-scheme-sapphire & {
+                    background-color: scale-color($sapphire, $saturation: -50%, $lightness: +10%);
+                    color: $marble;
+                }
+                .jtc-scheme-sulphur & {
+                    background-color: scale-color($sulphur, $saturation: -50%, $lightness: +10%);
+                    color: $basalt;
+                }
+                .jtc-scheme-turquoise & {
+                    background-color: scale-color($turquoise, $saturation: -50%, $lightness: +10%);
+                    color: $basalt;
+                }
+            }
+        }
+    }
+}

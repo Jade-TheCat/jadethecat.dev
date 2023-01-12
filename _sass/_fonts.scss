@@ -1,0 +1,83 @@
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+// Open Sans - https://github.com/googlefonts/opensans
+@font-face {
+    font-family: "Open Sans";
+    src: url(/assets/fonts/open-sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-weight: 400;
+    font-variation-settings: "wght" 400;
+    font-variation-settings: "wdth" 100;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings: "wght" 400;
+    font-variation-settings: "wdth" 100;
+}
+
+// OpenDyslexic - https://opendyslexic.org/
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-Bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-Italic.otf) format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-BoldItalic.otf) format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+// Junction - https://www.theleagueofmoveabletype.com/junction
+@font-face {
+    font-family: "Junction";
+    src: url(/assets/fonts/junction/Junction-regular.otf) format("opentype");
+    font-weight: normal;
+    font-feature-settings: "aalt", "liga", "clig", "kern";
+}
+
+@font-face {
+    font-family: "Junction";
+    src: url(/assets/fonts/junction/Junction-bold.otf) format("opentype");
+    font-weight: bold;
+    font-feature-settings: "aalt", "liga", "clig", "kern";
+}
+
+@font-face {
+    font-family: "Junction";
+    src: url(/assets/fonts/junction/Junction-light.otf) format("opentype");
+    font-weight: light;
+    font-feature-settings: "aalt", "liga", "clig", "kern";
+}
