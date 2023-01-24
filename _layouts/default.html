@@ -53,7 +53,9 @@
         <img src="/assets/jtc/img/JTC Marble.svg" alt="Small JTC Logo" class="header-image">
         <a href="/">Home</a>
         {% for project in site.projects %}
-            <a href="{{project.permalink}}">{{project.short-title}}</a>
+            {% if project.hidden == nil or project.hidden == false %}
+                <a href="{{project.permalink}}">{{project.short-title}}</a>
+            {% endif %}
         {% endfor %}
         <div class="dropdown">
             <button onclick="dropdown('coa-dropdown')" class="dropbtn">Children of Andromeda</button>

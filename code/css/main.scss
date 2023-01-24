@@ -65,7 +65,6 @@ header {
     position: static;
     justify-items: flex-start;
     flex-wrap: wrap;
-    gap: 1rem;
     padding: 1rem;
     @include getColor(text, primary, header);
     @include getColor(background, primary, header);
@@ -97,6 +96,13 @@ header {
         }
         display: inline-flex;
         text-decoration: none;
+        padding: 0.5em 1em;
+    }
+    & > a, .dropbtn {
+        border-right: 0.1rem solid $marble;
+    }
+    & :last-child, & :last-child .dropbtn {
+        border-right: 0;
     }
     .spacer {
         flex-grow: 1;
@@ -131,6 +137,10 @@ h1, h2, h3, h4, h5, h6 {
     .font-dyslexia & {
         font-family: inherit;
     }
+}
+
+dt {
+    margin-top: 1em;
 }
 
 footer {
