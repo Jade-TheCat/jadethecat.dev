@@ -1,0 +1,800 @@
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+@font-face {
+  font-family: "Open Sans";
+  src: url(/assets/fonts/open-sans/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-weight: 400;
+  font-variation-settings: "wght" 400;
+  font-variation-settings: "wdth" 100;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings: "wght" 400;
+  font-variation-settings: "wdth" 100;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-Regular.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-Bold.otf) format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-Italic.otf) format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url(/assets/fonts/OpenDyslexic/OpenDyslexic-BoldItalic.otf) format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Junction";
+  src: url(/assets/fonts/junction/Junction-regular.otf) format("opentype");
+  font-weight: normal;
+  font-feature-settings: "aalt", "liga", "clig", "kern";
+}
+@font-face {
+  font-family: "Junction";
+  src: url(/assets/fonts/junction/Junction-bold.otf) format("opentype");
+  font-weight: bold;
+  font-feature-settings: "aalt", "liga", "clig", "kern";
+}
+@font-face {
+  font-family: "Junction";
+  src: url(/assets/fonts/junction/Junction-light.otf) format("opentype");
+  font-weight: light;
+  font-feature-settings: "aalt", "liga", "clig", "kern";
+}
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+/*
+Copyright 2023 Jade Krabbe
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+.dropbtn {
+  background-color: #161616;
+  color: #efefef;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: inherit;
+  padding: 0.5em 1em;
+  height: 100%;
+}
+.jtc-scheme-amber .dropbtn:hover, .jtc-scheme-amber .dropbtn.active {
+  color: #ff7e00;
+}
+.accessible-colors.jtc-scheme-amber .dropbtn:hover, .accessible-colors.jtc-scheme-amber .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #ff7e00;
+  text-decoration-style: double;
+}
+.jtc-scheme-amethyst .dropbtn:hover, .jtc-scheme-amethyst .dropbtn.active {
+  color: #9c43f4;
+}
+.accessible-colors.jtc-scheme-amethyst .dropbtn:hover, .accessible-colors.jtc-scheme-amethyst .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #9c43f4;
+  text-decoration-style: double;
+}
+.jtc-scheme-emerald .dropbtn:hover, .jtc-scheme-emerald .dropbtn.active {
+  color: #50c878;
+}
+.accessible-colors.jtc-scheme-emerald .dropbtn:hover, .accessible-colors.jtc-scheme-emerald .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #50c878;
+  text-decoration-style: double;
+}
+.jtc-scheme-jade .dropbtn:hover, .jtc-scheme-jade .dropbtn.active {
+  color: #01881b;
+}
+.accessible-colors.jtc-scheme-jade .dropbtn:hover, .accessible-colors.jtc-scheme-jade .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #01881b;
+  text-decoration-style: double;
+}
+.jtc-scheme-rose-quartz .dropbtn:hover, .jtc-scheme-rose-quartz .dropbtn.active {
+  color: #FC9AF2;
+}
+.accessible-colors.jtc-scheme-rose-quartz .dropbtn:hover, .accessible-colors.jtc-scheme-rose-quartz .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #FC9AF2;
+  text-decoration-style: double;
+}
+.jtc-scheme-ruby .dropbtn:hover, .jtc-scheme-ruby .dropbtn.active {
+  color: #e0105f;
+}
+.accessible-colors.jtc-scheme-ruby .dropbtn:hover, .accessible-colors.jtc-scheme-ruby .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #e0105f;
+  text-decoration-style: double;
+}
+.jtc-scheme-sapphire .dropbtn:hover, .jtc-scheme-sapphire .dropbtn.active {
+  color: #0f52ba;
+}
+.accessible-colors.jtc-scheme-sapphire .dropbtn:hover, .accessible-colors.jtc-scheme-sapphire .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #0f52ba;
+  text-decoration-style: double;
+}
+.jtc-scheme-sulphur .dropbtn:hover, .jtc-scheme-sulphur .dropbtn.active {
+  color: #f1e14b;
+}
+.accessible-colors.jtc-scheme-sulphur .dropbtn:hover, .accessible-colors.jtc-scheme-sulphur .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #f1e14b;
+  text-decoration-style: double;
+}
+.jtc-scheme-turquoise .dropbtn:hover, .jtc-scheme-turquoise .dropbtn.active {
+  color: #30d5c8;
+}
+.accessible-colors.jtc-scheme-turquoise .dropbtn:hover, .accessible-colors.jtc-scheme-turquoise .dropbtn.active {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #30d5c8;
+  text-decoration-style: double;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  overflow-wrap: normal;
+  font-size: 1.5rem;
+}
+.dropdown.right-align > div.dropdown-content {
+  left: unset;
+  right: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 1em;
+  background-color: #161616;
+  color: #efefef;
+  z-index: 1;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  gap: 1em;
+}
+.dropdown-content * {
+  vertical-align: top;
+}
+.dropdown-content.show {
+  display: flex;
+}
+.dropdown-content input[type=checkbox] {
+  position: absolute;
+}
+.dropdown-content input[type=checkbox] + label {
+  padding-left: 1.8em;
+  display: inline-block;
+}
+.dropdown-content a {
+  background-color: #161616;
+  color: #efefef;
+  display: inline-flex;
+  text-decoration: none;
+}
+.jtc-scheme-amber .dropdown-content a:hover {
+  color: #ff7e00;
+}
+.accessible-colors.jtc-scheme-amber .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #ff7e00;
+  text-decoration-style: double;
+}
+.jtc-scheme-amethyst .dropdown-content a:hover {
+  color: #9c43f4;
+}
+.accessible-colors.jtc-scheme-amethyst .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #9c43f4;
+  text-decoration-style: double;
+}
+.jtc-scheme-emerald .dropdown-content a:hover {
+  color: #50c878;
+}
+.accessible-colors.jtc-scheme-emerald .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #50c878;
+  text-decoration-style: double;
+}
+.jtc-scheme-jade .dropdown-content a:hover {
+  color: #01881b;
+}
+.accessible-colors.jtc-scheme-jade .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #01881b;
+  text-decoration-style: double;
+}
+.jtc-scheme-rose-quartz .dropdown-content a:hover {
+  color: #FC9AF2;
+}
+.accessible-colors.jtc-scheme-rose-quartz .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #FC9AF2;
+  text-decoration-style: double;
+}
+.jtc-scheme-ruby .dropdown-content a:hover {
+  color: #e0105f;
+}
+.accessible-colors.jtc-scheme-ruby .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #e0105f;
+  text-decoration-style: double;
+}
+.jtc-scheme-sapphire .dropdown-content a:hover {
+  color: #0f52ba;
+}
+.accessible-colors.jtc-scheme-sapphire .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #0f52ba;
+  text-decoration-style: double;
+}
+.jtc-scheme-sulphur .dropdown-content a:hover {
+  color: #f1e14b;
+}
+.accessible-colors.jtc-scheme-sulphur .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #f1e14b;
+  text-decoration-style: double;
+}
+.jtc-scheme-turquoise .dropdown-content a:hover {
+  color: #30d5c8;
+}
+.accessible-colors.jtc-scheme-turquoise .dropdown-content a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #30d5c8;
+  text-decoration-style: double;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  font-family: inherit;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+}
+
+body {
+  width: 100vw;
+  max-width: 100vw;
+  font-size: 1.4rem;
+  min-height: 100vh;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.font-dyslexia body {
+  font-family: "OpenDyslexic", "Open Sans", sans-serif;
+}
+.jtc-theme-dark body {
+  color: #efefef;
+}
+.jtc-theme-light body {
+  color: #161616;
+}
+.jtc-theme-dark body {
+  background-color: #424242;
+}
+.jtc-theme-light body {
+  background-color: #efefef;
+}
+
+header {
+  display: flex;
+  position: static;
+  justify-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+  color: #efefef;
+  background-color: #161616;
+  width: 100vw;
+  max-width: 100%;
+  align-items: middle;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Junction", "Open Sans", sans-serif;
+}
+.font-dyslexia header {
+  font-family: inherit;
+}
+header * {
+  margin: auto 0;
+}
+header img.header-image {
+  width: 3em;
+  height: initial;
+}
+header a {
+  background-color: #161616;
+  color: #efefef;
+  display: inline-flex;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+.jtc-scheme-amber header a:hover {
+  color: #ff7e00;
+}
+.accessible-colors.jtc-scheme-amber header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #ff7e00;
+  text-decoration-style: double;
+}
+.jtc-scheme-amethyst header a:hover {
+  color: #9c43f4;
+}
+.accessible-colors.jtc-scheme-amethyst header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #9c43f4;
+  text-decoration-style: double;
+}
+.jtc-scheme-emerald header a:hover {
+  color: #50c878;
+}
+.accessible-colors.jtc-scheme-emerald header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #50c878;
+  text-decoration-style: double;
+}
+.jtc-scheme-jade header a:hover {
+  color: #01881b;
+}
+.accessible-colors.jtc-scheme-jade header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #01881b;
+  text-decoration-style: double;
+}
+.jtc-scheme-rose-quartz header a:hover {
+  color: #FC9AF2;
+}
+.accessible-colors.jtc-scheme-rose-quartz header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #FC9AF2;
+  text-decoration-style: double;
+}
+.jtc-scheme-ruby header a:hover {
+  color: #e0105f;
+}
+.accessible-colors.jtc-scheme-ruby header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #e0105f;
+  text-decoration-style: double;
+}
+.jtc-scheme-sapphire header a:hover {
+  color: #0f52ba;
+}
+.accessible-colors.jtc-scheme-sapphire header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #0f52ba;
+  text-decoration-style: double;
+}
+.jtc-scheme-sulphur header a:hover {
+  color: #f1e14b;
+}
+.accessible-colors.jtc-scheme-sulphur header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #f1e14b;
+  text-decoration-style: double;
+}
+.jtc-scheme-turquoise header a:hover {
+  color: #30d5c8;
+}
+.accessible-colors.jtc-scheme-turquoise header a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #30d5c8;
+  text-decoration-style: double;
+}
+header > a:first-of-type {
+  margin-left: 2rem;
+  border-left: 0.1rem solid #efefef;
+}
+header > a, header .dropbtn {
+  border-right: 0.1rem solid #efefef;
+}
+header :last-child, header :last-child .dropbtn {
+  border-right: 0;
+}
+header .spacer {
+  flex-grow: 1;
+}
+
+main {
+  font-size: 1.5em;
+  margin: 0 10%;
+}
+main img {
+  display: block;
+  margin-bottom: 1rem;
+}
+main .center ~ * {
+  text-align: center;
+}
+main .center ~ * img {
+  margin-left: auto;
+  margin-right: auto;
+}
+main .center ~ img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.jtc-scheme-amber main a {
+  color: #ff7e00;
+}
+.accessible-colors.jtc-scheme-amber main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #ff7e00;
+  text-decoration-style: double;
+}
+.jtc-scheme-amethyst main a {
+  color: #9c43f4;
+}
+.accessible-colors.jtc-scheme-amethyst main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #9c43f4;
+  text-decoration-style: double;
+}
+.jtc-scheme-emerald main a {
+  color: #50c878;
+}
+.accessible-colors.jtc-scheme-emerald main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #50c878;
+  text-decoration-style: double;
+}
+.jtc-scheme-jade main a {
+  color: #01881b;
+}
+.accessible-colors.jtc-scheme-jade main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #01881b;
+  text-decoration-style: double;
+}
+.jtc-scheme-rose-quartz main a {
+  color: #FC9AF2;
+}
+.accessible-colors.jtc-scheme-rose-quartz main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #FC9AF2;
+  text-decoration-style: double;
+}
+.jtc-scheme-ruby main a {
+  color: #e0105f;
+}
+.accessible-colors.jtc-scheme-ruby main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #e0105f;
+  text-decoration-style: double;
+}
+.jtc-scheme-sapphire main a {
+  color: #0f52ba;
+}
+.accessible-colors.jtc-scheme-sapphire main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #0f52ba;
+  text-decoration-style: double;
+}
+.jtc-scheme-sulphur main a {
+  color: #f1e14b;
+}
+.accessible-colors.jtc-scheme-sulphur main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #f1e14b;
+  text-decoration-style: double;
+}
+.jtc-scheme-turquoise main a {
+  color: #30d5c8;
+}
+.accessible-colors.jtc-scheme-turquoise main a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #30d5c8;
+  text-decoration-style: double;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Junction", "Open Sans", sans-serif;
+}
+.font-dyslexia h1, .font-dyslexia h2, .font-dyslexia h3, .font-dyslexia h4, .font-dyslexia h5, .font-dyslexia h6 {
+  font-family: inherit;
+}
+
+dt {
+  margin-top: 1em;
+}
+
+footer {
+  flex-shrink: 0;
+  padding: 1rem;
+  text-align: center;
+}
+.jtc-scheme-amber footer a {
+  color: #ff7e00;
+}
+.accessible-colors.jtc-scheme-amber footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #ff7e00;
+  text-decoration-style: double;
+}
+.jtc-scheme-amethyst footer a {
+  color: #9c43f4;
+}
+.accessible-colors.jtc-scheme-amethyst footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #9c43f4;
+  text-decoration-style: double;
+}
+.jtc-scheme-emerald footer a {
+  color: #50c878;
+}
+.accessible-colors.jtc-scheme-emerald footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #50c878;
+  text-decoration-style: double;
+}
+.jtc-scheme-jade footer a {
+  color: #01881b;
+}
+.accessible-colors.jtc-scheme-jade footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #01881b;
+  text-decoration-style: double;
+}
+.jtc-scheme-rose-quartz footer a {
+  color: #FC9AF2;
+}
+.accessible-colors.jtc-scheme-rose-quartz footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #FC9AF2;
+  text-decoration-style: double;
+}
+.jtc-scheme-ruby footer a {
+  color: #e0105f;
+}
+.accessible-colors.jtc-scheme-ruby footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #e0105f;
+  text-decoration-style: double;
+}
+.jtc-scheme-sapphire footer a {
+  color: #0f52ba;
+}
+.accessible-colors.jtc-scheme-sapphire footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #0f52ba;
+  text-decoration-style: double;
+}
+.jtc-scheme-sulphur footer a {
+  color: #f1e14b;
+}
+.accessible-colors.jtc-scheme-sulphur footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #f1e14b;
+  text-decoration-style: double;
+}
+.jtc-scheme-turquoise footer a {
+  color: #30d5c8;
+}
+.accessible-colors.jtc-scheme-turquoise footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #30d5c8;
+  text-decoration-style: double;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+table {
+  display: inline-table;
+  border: 1px solid;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  border: 1px solid;
+  border-bottom: 4px double;
+}
+
+.jtc-scheme-amber tbody tr:nth-child(even) > * {
+  background-color: #c68c53;
+  color: #161616;
+}
+.jtc-scheme-amethyst tbody tr:nth-child(even) > * {
+  background-color: #b08cd3;
+  color: #161616;
+}
+.jtc-scheme-emerald tbody tr:nth-child(even) > * {
+  background-color: #7db38f;
+  color: #161616;
+}
+.jtc-scheme-jade tbody tr:nth-child(even) > * {
+  background-color: #2c823d;
+  color: #efefef;
+}
+.jtc-scheme-rose-quartz tbody tr:nth-child(even) > * {
+  background-color: #e6bae2;
+  color: #161616;
+}
+.jtc-scheme-ruby tbody tr:nth-child(even) > * {
+  background-color: #ba5179;
+  color: #efefef;
+}
+.jtc-scheme-sapphire tbody tr:nth-child(even) > * {
+  background-color: #4369a5;
+  color: #efefef;
+}
+.jtc-scheme-sulphur tbody tr:nth-child(even) > * {
+  background-color: #cdc682;
+  color: #161616;
+}
+.jtc-scheme-turquoise tbody tr:nth-child(even) > * {
+  background-color: #6ab4ae;
+  color: #161616;
+}
+
+td {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+td span.rotate-neg90 {
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg) translateX(1.2em);
+  white-space: nowrap;
+  padding-right: 1em;
+}
+
+th, td {
+  padding: 0.2em 0.5em;
+}
+
+/*# sourceMappingURL=main.css.map */
