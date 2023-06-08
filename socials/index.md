@@ -16,7 +16,7 @@ Below are links to my social media profiles. If you do not see something here, i
 
 In addition, below are some of my usernames on sites where I cannot just link it.
 
-<i class="fab fa-discord fa-fw"></i> Discord: @JadeTheCat#0042
+<i class="fab fa-discord fa-fw"></i> Discord: @jadethecat (prev @JadeTheCat#0042)
 
 **[ ]** Matrix: @Jade_TheCat:matrix.org
 

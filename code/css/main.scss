@@ -86,7 +86,6 @@ header {
     img.header-image {
         width: 3em;
         height: initial;
-        margin-right: 2em;
     }
     a {
         @include getColor(background, primary, header);
@@ -97,6 +96,10 @@ header {
         display: inline-flex;
         text-decoration: none;
         padding: 0.5em 1em;
+    }
+    & > a:first-of-type {
+        margin-left: 2rem;
+        border-left: 0.1rem solid $marble;
     }
     & > a, .dropbtn {
         border-right: 0.1rem solid $marble;
