@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/bop-rose-quartz-create-mod-compat.pw.toml"
-hash = "ff5429a8453703f8954e6e924eef7f42ef554d07631fa6f388f6c7e2206ebe7b"
+hash = "946354cdc37b9d01a0650398d9dc1f33b3df28a4cd78cbdc133ce6b8f921eef5"
 metafile = true
 
 [[files]]
@@ -302,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-simple-ore-doubling.pw.toml"
-hash = "ff9aa5dfaec8f0a29b12cbd8f76fead26c5888e9508b6f7e9dbb5043bd98218e"
+hash = "c2204eff2508118fecd6c9d8bf8d9ec0e3b2eee178b3977fb1e304a48537c5c7"
 metafile = true
 
 [[files]]
