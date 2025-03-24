@@ -1,0 +1,13 @@
+name = "Create: Simple Ore Doubling [Forge/Fabric/NeoForge]"
+filename = "create_simple_ore_doubling-1.5.0-fabric-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7jXyH8Xk/versions/OJdoKKDH/create_simple_ore_doubling-1.5.0-fabric-1.20.1.jar"
+hash-format = "sha512"
+hash = "6241c683958087454c87fc076ff164cebee8727489f9ec391b64be2d16c325caa0867b7547c37b6f5363a19ac14450c93223f0ff436df6087918b2fb5d1e61b8"
+
+[update]
+[update.modrinth]
+mod-id = "7jXyH8Xk"
+version = "OJdoKKDH"

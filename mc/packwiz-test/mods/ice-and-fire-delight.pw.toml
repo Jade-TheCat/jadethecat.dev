@@ -1,0 +1,13 @@
+name = "Ice and Fire Delight"
+filename = "ice_and_fire_delight-forge-1.20.1-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mGwAPysv/versions/FpF2lJdR/ice_and_fire_delight-forge-1.20.1-0.2.2.jar"
+hash-format = "sha512"
+hash = "572510d2b44478bbbb52b2017a83cdfce7821ce61a6b55edbe3d7b7dca853103f16a2ed8078aaff078c98378e5c6e98f47d6dc164bc9ad369b4ac20da5ce9c74"
+
+[update]
+[update.modrinth]
+mod-id = "mGwAPysv"
+version = "FpF2lJdR"

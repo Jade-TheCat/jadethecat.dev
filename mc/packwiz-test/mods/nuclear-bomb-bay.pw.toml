@@ -1,0 +1,13 @@
+name = "Nuclear Bomb Bay"
+filename = "Nuke_bay-1.20.1-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Yw8a5K8E/versions/4fwBPLvN/Nuke_bay-1.20.1-1.1.jar"
+hash-format = "sha512"
+hash = "50d2fdade3403853f18a51cd24b4db0195b6f67cbe42815ae6a658bf3e339b68812c8ab3d6abb50e89037c854e3c4576fa0fe673480b4e4474798792dd3a8f9b"
+
+[update]
+[update.modrinth]
+mod-id = "Yw8a5K8E"
+version = "4fwBPLvN"

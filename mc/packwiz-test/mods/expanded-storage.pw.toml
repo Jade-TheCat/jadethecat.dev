@@ -1,0 +1,13 @@
+name = "Expanded Storage"
+filename = "expandedstorage-10.3.0-beta.5+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jCCPlP3c/versions/7iRFOUqE/expandedstorage-10.3.0-beta.5%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "33fdfb9e02c9d502cf255ae6fcfa8456c831f80956f1086638e648773fed1df0fcc11550e5d38717ff8f5842ed2efa33255435a1defc231d1e378f4ddad617c4"
+
+[update]
+[update.modrinth]
+mod-id = "jCCPlP3c"
+version = "7iRFOUqE"

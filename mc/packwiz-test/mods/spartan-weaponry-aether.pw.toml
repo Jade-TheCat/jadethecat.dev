@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Aether"
+filename = "spartanaether-1.20.1-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oUC86ieO/versions/NzjnHe1m/spartanaether-1.20.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "a85b5b4ad81ac85fa9ca31950e5e064403056c37ae9246f83b07badd9f2355384797e34a96869c48182462e10c4946f712ec5f4ffaf88ebab9ce6262c8c33637"
+
+[update]
+[update.modrinth]
+mod-id = "oUC86ieO"
+version = "NzjnHe1m"

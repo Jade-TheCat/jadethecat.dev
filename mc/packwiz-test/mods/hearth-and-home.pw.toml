@@ -1,0 +1,13 @@
+name = "Hearth & Home"
+filename = "hearth_and_home-forge-1.20.1-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ePCzRQkj/versions/tLGvZFeu/hearth_and_home-forge-1.20.1-2.0.3.jar"
+hash-format = "sha512"
+hash = "931939d195e0691621a5dcd3b31101040839314a8ab8dc7a6beb4026bed9e221f9fd7686c151d5182e03ce4d911c92147016164f38a5869db116853c1485f96c"
+
+[update]
+[update.modrinth]
+mod-id = "ePCzRQkj"
+version = "tLGvZFeu"
