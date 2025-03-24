@@ -2,7 +2,6 @@ name = "Euphoria Patches"
 filename = "EuphoriaPatcher-1.5.2-r5.4-forge.jar"
 side = "client"
 
-
 [download]
 url = "https://cdn.modrinth.com/data/4H6sumDB/versions/2nkaoBFo/EuphoriaPatcher-1.5.2-r5.4-forge.jar"
 hash-format = "sha512"

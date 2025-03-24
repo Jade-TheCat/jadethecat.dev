@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/aquaculture.pw.toml"
-hash = "c4ba20c9dc88687865d5c9dd2b6e0043a69055c46b8fd935dd74c43ee56b5428"
+hash = "876271be943b79d714ce3328f3fca0687a121307c32abcff28b155a3a003a8e1"
 metafile = true
 
 [[files]]
@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "f655cd50300393e063ba31c473ec4bbe125778a6ec4f3f4b8da78f355729ef4c"
+hash = "e0681686dcef24bec419925c5a58b2fbe54e5a1dbad2709f9fc3a482761d02fa"
 metafile = true
 
 [[files]]
@@ -452,7 +452,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastsuite.pw.toml"
-hash = "a828c60907bd972cb75263bce3bd6bacfb31b98ccb3d5556ad10c7be81258e5d"
+hash = "9ad87dc16bd54875df670cc66b0287be5a56f872c4a2c53086351cef54d5fd61"
 metafile = true
 
 [[files]]
@@ -687,7 +687,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
+hash = "74b3603c4750373928488bdb73ab6042bf29d833e90b6827f3165c52493807e8"
 metafile = true
 
 [[files]]
@@ -917,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/create-immersive-aircrafts-resource-pack.pw.toml"
-hash = "f3a4bb5d89c7d9a554aca934d729611a3bad37c01ab374caf7af6cbc1de4fab0"
+hash = "64ed6d8de990dd17d9adea3caa8c9107b63f1c7c51582fa877f272f818bcb0c3"
 metafile = true
 
 [[files]]
