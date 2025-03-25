@@ -1,0 +1,17 @@
+name = "Euphoria Patches"
+filename = "EuphoriaPatcher-1.5.2-r5.4-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4H6sumDB/versions/2nkaoBFo/EuphoriaPatcher-1.5.2-r5.4-forge.jar"
+hash-format = "sha512"
+hash = "269f9597250be75428f1af4f5f0b9b956648a8c356e031c104b2d6e8c7f37ec3da79b26a10c2b1c3fcfcc434edb4f4c880c73b8a010eddef06113aee6fcae960"
+
+[update]
+[update.modrinth]
+mod-id = "4H6sumDB"
+version = "2nkaoBFo"
+
+[option]
+optional = true
+description = "Adds extra features for Complimentary Shaders."

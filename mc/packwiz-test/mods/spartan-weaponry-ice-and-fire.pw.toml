@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Ice and Fire"
+filename = "spartanfire-1.20.1-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JQ8ejbmx/versions/vIHI69Ae/spartanfire-1.20.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "a263e05df39cf02d2bd9c1770d681f3170a24cea397dafc7685b585dc43c2e0cab23c3c7c326ecf70d3b3bdec1903e5940b45922755020eb13c782afca2681fa"
+
+[update]
+[update.modrinth]
+mod-id = "JQ8ejbmx"
+version = "vIHI69Ae"

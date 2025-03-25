@@ -1,0 +1,13 @@
+name = "Create: Bio-Factory"
+filename = "biofactory-forge-1.20.1-0.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gBUkmmra/versions/TU1E32VI/biofactory-forge-1.20.1-0.4.1.jar"
+hash-format = "sha512"
+hash = "33b5a1b672f6386ecc37304363d51a576ac1616a1d4fa46b94d9129d0f365d49e3bad8fe0df574c6011df79a738b49384677bcbd54fc51bd4eb9980582fa6d24"
+
+[update]
+[update.modrinth]
+mod-id = "gBUkmmra"
+version = "TU1E32VI"

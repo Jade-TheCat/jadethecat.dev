@@ -1,0 +1,13 @@
+name = "Cultural Delights"
+filename = "culturaldelights-0.16.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YttyNOFA/versions/BSgCMI6X/culturaldelights-0.16.2.jar"
+hash-format = "sha512"
+hash = "64a975dcd93ae3e6c4c877ae56031d75d0328fff3eadb10c44d29afd0c7ad3c2d6b5a3efe00b4ffcd89a2eb2277a54444cc8a492343902275a4808158b0b1274"
+
+[update]
+[update.modrinth]
+mod-id = "YttyNOFA"
+version = "BSgCMI6X"

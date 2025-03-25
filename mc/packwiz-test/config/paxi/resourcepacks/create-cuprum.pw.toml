@@ -1,0 +1,13 @@
+name = "Create: Cuprum"
+filename = "create_cuprum.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/QX4AaLqm/versions/GwuN2DS0/create_cuprum.zip"
+hash-format = "sha512"
+hash = "fbf69e51506f6a0eedaedb3edc932c917e825dfbbfadf098f564483dee46db4e60566fc259b1ab12a0d834f6f66ef147b2e613f21d43965885d9f922db6a107a"
+
+[update]
+[update.modrinth]
+mod-id = "QX4AaLqm"
+version = "GwuN2DS0"

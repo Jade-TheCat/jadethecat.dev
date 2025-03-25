@@ -1,0 +1,13 @@
+name = "CBC: Nuclear"
+filename = "cbc_nukes-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uKD8yQTC/versions/Ia7XCjCB/cbc_nukes-2.1.0.jar"
+hash-format = "sha512"
+hash = "3953feb388b816b2f5b4feffc73b0531887cf3a38f21af9396821a8ca9cbe051ac2b776b4c28b5659588c80edfb7b06d02384da118f44453b4be17336cddd9a9"
+
+[update]
+[update.modrinth]
+mod-id = "uKD8yQTC"
+version = "Ia7XCjCB"

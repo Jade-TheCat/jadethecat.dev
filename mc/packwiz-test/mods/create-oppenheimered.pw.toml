@@ -1,0 +1,13 @@
+name = "Create: Oppenheimered"
+filename = "create_oppenheimered-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7qOxePw2/versions/WEGRWbrc/create_oppenheimered-1.0.5.jar"
+hash-format = "sha512"
+hash = "c65582b62a9e8369bcf53346262c764afb49018f124b5856d7b0eba01417ae7aec4990c7dff3b789b1f84ef582aa3520b830655cc8e2a580492177cf6b2d87d4"
+
+[update]
+[update.modrinth]
+mod-id = "7qOxePw2"
+version = "WEGRWbrc"

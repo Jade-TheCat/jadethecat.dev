@@ -1,0 +1,17 @@
+name = "Jade Server Pack"
+author = "JadeTheCat"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "73d1d56cbf338214b08c298145aea3d7d9b65e5eba359f16a6d4d79d997d3490"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"
+
+[options]
+acceptable-game-versions = ["1.20"]
+datapack-folder = "config/paxi/datapacks"
