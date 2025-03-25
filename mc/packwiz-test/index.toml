@@ -1,6 +1,46 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/paxi/datapacks/create-computercraft.pw.toml"
+hash = "5acf665b02f3a79024123c7824fd13bcb29b955c8d03c13806e13253352fb012"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/create-computercraft.pw.toml"
+hash = "5acf665b02f3a79024123c7824fd13bcb29b955c8d03c13806e13253352fb012"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/create-cuprum.pw.toml"
+hash = "fa48528051a44f32332144fdfd91bedbc3ebd3bedb1f51f6a4dd473267d54e3b"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/create-darkmode.pw.toml"
+hash = "928c8ae622d3af9a7f0a4aaeb11cb7211213640c7683ef10cf104acecb727da1"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/create-immersive-aircrafts-resource-pack.pw.toml"
+hash = "64ed6d8de990dd17d9adea3caa8c9107b63f1c7c51582fa877f272f818bcb0c3"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/create-sophisticated-backpacks.pw.toml"
+hash = "30ad212730fa8fed38f81dc5d7d57777463295ba3018117c62725fb464ca7280"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/create-waystones-texture-+-gui.pw.toml"
+hash = "9e77cd5c9c9b584c44ed4be0fe93aaaf8777a20720e918364cac065fa24eeeda"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/default-dark-mode.pw.toml"
+hash = "9ccdca7ead50871101f8cf380df89a160261859c7e640c3477170f95f1a515c3"
+metafile = true
+
+[[files]]
 file = "mods/addonslib.pw.toml"
 hash = "b0a06e7fb99cceab61313fce41ed48059aca7b86423bff086034bd69b01af92d"
 metafile = true
@@ -96,6 +136,11 @@ hash = "e11ddca37c00c8cdf8ee89c7b59df544f50966d2d6c5b016916f023afb98c02e"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "d8d22367eea5e6bbd1971fd029c88e5c25faaf088f278b17e0cce952088b1ff2"
+metafile = true
+
+[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "262483c4f54a8171396664e16917c2d2f9145db7f9052fac99aebfb53b40e3cb"
 metafile = true
@@ -168,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/citadel.pw.toml"
 hash = "c122e1213dd6d4004e263a2b36dea1e701c9e2179c9496b279bc07e4e533f263"
+metafile = true
+
+[[files]]
+file = "mods/citreforged.pw.toml"
+hash = "ccc0aea2b6fd6a99829f213bc91eed50f94fa4370c8db41fec9b7aba107316db"
 metafile = true
 
 [[files]]
@@ -321,6 +371,11 @@ hash = "1ea4e0f523d42b19dc47c558c82b554d26b3d0a622eb886e0f30ca502a2a4580"
 metafile = true
 
 [[files]]
+file = "mods/create-waystones-recipes.pw.toml"
+hash = "a6eef0e06f73c29b012b85d69f696b974404ddb3b32efaa60de509a802f411b4"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "1eceb4e4ab86c793f992ce9444e92f46dae76c3f744d8e19feb1143fb6c01939"
 metafile = true
@@ -421,6 +476,11 @@ hash = "c3d1438d25bdf4a3b993b832f220370635969c7d964df0b3e389e126d24e48f1"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-boss-bars-mod.pw.toml"
+hash = "170a341c0cfc02b56374f1a2c4391e89a6705a8636b3ba6712e6cd13d786a35f"
+metafile = true
+
+[[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "e0681686dcef24bec419925c5a58b2fbe54e5a1dbad2709f9fc3a482761d02fa"
 metafile = true
@@ -508,6 +568,11 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "71f185e62d546881244d4b5a213ebc3d2d6df14b0218c0e5dd6426fcb22cb55f"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "6cd5dcc7f8be470d2b9be207783db249235cd8536b4cf0f923c86124b387848a"
 metafile = true
 
 [[files]]
@@ -606,6 +671,11 @@ hash = "8ec249c1e2aaac6bf623263036059908f66769ca70e90dd854de483424cedd0a"
 metafile = true
 
 [[files]]
+file = "mods/minecraft-comes-alive-reborn.pw.toml"
+hash = "b178d1d5ea81149a287303b595405af33d0ec73047bd9a3ff79ca5715c8d4578"
+metafile = true
+
+[[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "67a9681bb1944cb09e596d30905be4ab72f5478b5abaa67a45737a51824ae648"
 metafile = true
@@ -683,6 +753,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "be48890d990e03c639c5636c79bfa74bbd531c49a80487507984899c386a0bd9"
 metafile = true
 
 [[files]]
@@ -841,6 +916,21 @@ hash = "1bb99f86c3352e98cddc7609347eee315fa387d84b5148166505ad212408d116"
 metafile = true
 
 [[files]]
+file = "mods/waystones-teleport-pets.pw.toml"
+hash = "b312d7ef0c6ec3b33b5bedb5f9e412230391e87bb7ba6f287f4571eb5805462b"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "2a1e1a0db8d2eeef1514a34180089d743eb35fec8e442ea54dbe33dde7d6cf48"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
+hash = "e288e8e67a836314a8661d6c9f7320a686d97b8c92aab4f88352cc2cbcde1687"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "74b4ea5279c7fa9965ced3d9d02d42aeaf1b213314e3e9b5c5747a36ae6e9648"
 metafile = true
@@ -911,16 +1001,31 @@ hash = "cbc4a42265c7235d95f596f4d03819d868e002c2b175f2f6bd30420416a7cef2"
 metafile = true
 
 [[files]]
-file = "resourcepacks/create-computercraft.pw.toml"
-hash = "5acf665b02f3a79024123c7824fd13bcb29b955c8d03c13806e13253352fb012"
+file = "resourcepacks/enhanced-boss-bars.pw.toml"
+hash = "88496e670b35be0585d76f593cad1e59e76e7e9c4a014d5e8e4ce8c8b8e29986"
 metafile = true
 
 [[files]]
-file = "resourcepacks/create-immersive-aircrafts-resource-pack.pw.toml"
-hash = "64ed6d8de990dd17d9adea3caa8c9107b63f1c7c51582fa877f272f818bcb0c3"
+file = "resourcepacks/even-better-enchants.pw.toml"
+hash = "c787950c5bdbff78bc2ef218554f1486fc81f747d7abd4a29fba5286229b225a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/icon-xaeros.pw.toml"
+hash = "a8834e7aa0c6fea1615c05e1d43f84540ff0b1e2282c2cea93261baee7f9460f"
+metafile = true
+
+[[files]]
+file = "resourcepacks/icons.pw.toml"
+hash = "29a7b3eb5b9bfd6ddaa5efd808dcbe4c0eb1428b57f03cd700fcadd1c552edfb"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "e47a826ada03a3492b849ff1cdc38a5f432cbd77609fdd724fff036882606d3d"
+metafile = true
+
+[[files]]
+file = "shaderpacks/potato-shaders.pw.toml"
+hash = "8958fff9fcdff84582c75584b9fd89fed7e2b21f28c6a752857ce1458ffbfd26"
 metafile = true

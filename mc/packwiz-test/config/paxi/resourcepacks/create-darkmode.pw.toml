@@ -1,0 +1,13 @@
+name = "Create Darkmode"
+filename = "Create_Darkmode_v0.0.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/QTqrHaYC/versions/wjKUN0fP/Create_Darkmode_v0.0.2.zip"
+hash-format = "sha512"
+hash = "6699b0762b94d90cf0241ee1c8f1fb6746375e8edd28a2df4911d15b65cf6761ff5290eef52f1a6cda4960f907249fad7e9c20d618dedb252ba4406fc4e2a2bc"
+
+[update]
+[update.modrinth]
+mod-id = "QTqrHaYC"
+version = "wjKUN0fP"
